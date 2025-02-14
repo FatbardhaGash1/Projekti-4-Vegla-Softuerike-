@@ -4,6 +4,7 @@ void perseri () {
   cout<<"->";
   cin >> choice ;
 }
+
 void home () {
   cout << "A deshironi te planifikoni mesimin apo te kalkuloni mesataren e notave te nje nxenesi ?" << endl ;
   cout << "('mesatarja' ose 'plani')" << endl;

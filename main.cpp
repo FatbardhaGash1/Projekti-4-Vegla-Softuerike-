@@ -5,16 +5,16 @@ home:
 	home();
 	if (choice == "mesatarja") {
 	mesatarja:
-		Studenti n;
+		Studenti studenti;
 		cout << "Jep emrin e studentit: ";
-		cin >> n.emri;
+		cin >> studenti.emri;
 		cout << "Jep numrin e notave te studentit: " << endl;
-		cin >> n.nrNotave;
+		cin >> studenti.nrNotave;
 		cout << "Jep notat e studentit" << endl;
-		n.mes();
+		studenti.mes();
 
-		cout << "Mesatarja e studentit " << n.emri << " eshte ";
-		n.shtypMesataren();
+		cout << "Mesatarja e studentit " << studenti.emri << " eshte ";
+		studenti.shtypMesataren();
 		perseri();
 		if (choice == "po" || choice == "Po" || choice == "PO") {
 			goto mesatarja;
@@ -31,5 +31,5 @@ home:
     cin >> b;
 		cout << endl;
 		cout << "PLANI I MESIMIT: " << endl << endl;
-
-
+	}
+}

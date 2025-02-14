@@ -1,0 +1,21 @@
+#include <iomanip>
+struct Studenti {
+    int nrNotave = 0;
+    string emri;
+    double mesatarja = 0;
+
+    double mes() {
+        int shuma = 0, nota;
+        for (int i = 1; i <= nrNotave; i++) {
+            cout << "Shkruaj noten e [" << i << "]: ";
+            cin >> nota;
+            shuma += nota;
+        }
+        mesatarja = shuma * 1.0 / nrNotave;
+        return mesatarja;
+    }
+
+    void shtypMesataren() {
+        cout << "Mesatarja e studentit " << emri << " eshte " << fixed << setprecision(2) << mesatarja << endl;
+    }
+};

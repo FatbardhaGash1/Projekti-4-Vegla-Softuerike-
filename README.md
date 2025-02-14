@@ -3,8 +3,8 @@ Programi për Mesatare dhe Planifikim Mësimi
 
 Ky program në C++ ofron dy funksionalitete kryesore:
 
-1. Llogaritja e mesatares së një studenti – Programi merr notat e studentit dhe llogarit mesataren.
-2. Planifikimi i studimit – Përdoruesi vendos numrin e temave dhe ditëve në dispozicion, dhe programi sugjeron një plan mësimi.
+1. Llogaritja e mesatares së një studenti
+2. Planifikimi i studimit 
 
 Si do të funksionojë programi
 

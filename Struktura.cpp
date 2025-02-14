@@ -20,4 +20,5 @@ struct Studenti {
 	void shtypMesataren() {
 		cout << setprecision(2) << fixed << mesatarja;
 	}
+
 };

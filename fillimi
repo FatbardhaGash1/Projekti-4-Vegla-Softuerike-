@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+string choice;
+
+void home() {
+    cout << "A deshironi te planifikoni mesimin apo te kalkuloni mesataren e notave te nje nxenesi?" << endl;
+    cout << "('mesatarja' ose 'plani')" << endl;
+    cout << "-> ";
+    cin >> choice;
+}
+
+int main() {
+    home();
+    if (choice == "mesatarja") {
+        cout << "Funksioni per llogaritjen e mesatares do implementohet ketu!" << endl;
+    }
+    else if (choice == "plani") {
+        cout << "Funksioni per planifikimin do implementohet ketu!" << endl;
+    }
+    else {
+        cout << "Gabim ne kerkese!" << endl;
+    }
+    return 0;
+}
